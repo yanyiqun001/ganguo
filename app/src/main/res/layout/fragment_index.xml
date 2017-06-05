@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/refreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:tr_max_head_height="180dp"
+        app:tr_head_height="100dp">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_index"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ></android.support.v7.widget.RecyclerView>
+        <include layout="@layout/topview"></include>
+    </com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout>
+
+</FrameLayout>

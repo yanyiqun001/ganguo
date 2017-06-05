@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    >
+
+    <LinearLayout
+        android:id="@+id/item_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="?attr/selectableItemBackground"
+        android:orientation="vertical"
+        android:background="?attr/backgroundcolor_item"
+        >
+
+       <include layout="@layout/topview"></include>
+
+        <View
+            android:id="@+id/topline"
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="?attr/topline"
+            android:visibility="visible"></View>
+
+
+
+
+        <android.support.v4.widget.Space
+            android:id="@+id/space"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <ImageView
+                android:id="@+id/iv_index"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:scaleType="centerCrop"
+               ></ImageView>
+
+            <TextView
+                android:id="@+id/tv_title"
+                style="@style/tv_style"
+                android:layout_below="@+id/iv_index"
+                android:paddingBottom="15dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="20dp"
+                android:textSize="15sp"
+                android:paddingTop="15dp" />
+
+            <com.haozhang.lib.SlantedTextView
+                android:id="@+id/slante"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:visibility="visible"
+                app:slantedBackgroundColor="@color/colorPrimary"
+                app:slantedLength="22dp"
+                app:slantedMode="right"
+                app:slantedText="android"
+                app:slantedTextColor="@color/white"
+                app:slantedTextSize="10sp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/anthor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingBottom="10dp"
+                android:textSize="11sp"
+                android:textColor="@color/textbg"
+                android:drawableLeft="@drawable/ic_person_black_24dp"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/bottomline"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?attr/bottomline"></View>
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/backgroundColor"/>
+</LinearLayout>
+
+

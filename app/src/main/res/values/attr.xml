@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="bottomcolor" format="color"/>
+    <attr name="backgroundcolor" format="color"/>
+    <attr name="backgroundcolor_item" format="color"/>
+    <attr name="textcolor" format="color"/>
+    <attr name="toolbarcolor" format="color"/>
+    <attr name="bottomline" format="color"/>
+    <attr name="topline" format="color"/>
+    <attr name="topview" format="color"/>
+    <attr name="toptextcolor" format="color"/>
+    <attr name="tablayoutbgcolor" format="color"/>
+    <attr name="addlayout" format="color"/>
+    <attr name="listdivider" format="color"/>
+    <attr name="switchclose" format="color"/>
+    <attr name="fbcolor" format="color"/>
+</resources>

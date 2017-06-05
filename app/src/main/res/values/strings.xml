@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">干果</string>
+
+    <string name="title1">首页</string>
+    <string name="title2">android</string>
+    <string name="title3">ios</string>
+    <string name="title4">前端</string>
+
+    <string name="main2">福利</string>
+    <string name="main3">收藏</string>
+
+    <string name="account_balance">Account Balance</string>
+    <string name="balance_currency">$</string>
+    <string name="balance_amount">524.99</string>
+
+
+    <string name="srn_drawer_open">Open</string>
+    <string name="srn_drawer_close">Close</string>
+    <string name="translateName">translate_search</string>
+    <string name="search">搜索</string>
+    <string name="translate_mz">translate_mz</string>
+
+
+</resources>

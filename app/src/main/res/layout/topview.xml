@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tv_top"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp"
+    android:background="?attr/topview"
+    android:textSize="14sp"
+    android:textColor="?attr/toptextcolor"
+    android:drawableLeft="@drawable/rac"
+    android:drawablePadding="5dp">
+
+</TextView>

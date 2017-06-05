@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/headlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize" />
+    <ImageView
+        android:id="@+id/iv_head"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        />
+    </LinearLayout>
+    <ScrollView
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <FrameLayout
+                android:id="@+id/space"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <WebView
+                android:id="@+id/wv_detail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="visible"
+                android:background="@color/backgroundColor"
+                ></WebView>
+            </FrameLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+   <include layout="@layout/toolbar"
+      ></include>
+    <ProgressBar
+       android:layout_gravity="center"
+        android:id="@+id/pb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+       />
+
+</RelativeLayout>

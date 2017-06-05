@@ -1,0 +1,92 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="android:listDivider">@drawable/list_divider</item>
+
+
+
+    </style>
+    
+    <style name="noAnimTheme" parent="AppTheme">
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    
+    <style name="NightTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/color222222</item>
+        <item name="colorPrimaryDark">@color/color252525</item>
+        <item name="bottomcolor">@color/night_background</item>
+        <item name="backgroundcolor">@color/night_background</item>
+        <item name="backgroundcolor_item">@color/night_item_background</item>
+        <item name="toolbarcolor">@color/toolbarcolor</item>
+        <item name="textcolor">@color/night_item_textcolor</item>
+        <item name="bottomline" >@color/color222222</item>
+        <item name="topline" >@color/color222222</item>
+        <item name="topview">@color/night_background</item>
+        <item name="toptextcolor">@color/night_item_textcolor</item>
+        <item name="tablayoutbgcolor">@color/toolbarcolor</item>
+        <item name="addlayout">@color/toolbarcolor</item>
+        <item name="listdivider">@color/black</item>
+        <item name="android:windowBackground">@color/night_background</item>
+        <item name="colorSwitchThumbNormal">@color/night_background</item>
+        <item name="colorControlActivated">@color/black</item>
+        <item name="fbcolor">@color/night_background</item>
+    </style>
+
+    <style name="DayTheme" parent="AppTheme">
+        <item name="bottomcolor">@color/white</item>
+        <item name="backgroundcolor">@color/backgroundColor</item>
+        <item name="backgroundcolor_item">@color/white</item>
+        <item name="toolbarcolor">@color/colorPrimary</item>
+        <item name="textcolor">@color/black</item>
+        <item name="bottomline"> @color/bottomline </item>
+        <item name="topline">@color/topline</item>
+        <item name="topview">@color/topviewcolor</item>
+        <item name="toptextcolor">@color/colorPrimary</item>
+        <item name="tablayoutbgcolor">@color/colorPrimary</item>
+        <item name="addlayout">@color/colorPrimary</item>
+        <item name="listdivider">@color/divider</item>
+        <item name="colorSwitchThumbNormal">@color/white</item>
+        <item name="colorControlActivated">@color/colorPrimaryDark</item>
+        <item name="fbcolor">@color/colorPrimary</item>
+    </style>
+    
+    
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+
+    <style name="tv_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">?attr/textcolor</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TabLayoutTextStyle">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="toolbar_theme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    </style>
+
+    <style name="TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Color1SwitchStyle">
+        <item name="colorControlActivated">@color/color222222</item>
+        <item name="colorSwitchThumbNormal">@color/white</item>
+    </style>
+</resources>
