@@ -34,4 +34,4 @@
 https://juejin.im/entry/58a5992961ff4b006c4455e3?utm_source=gold-miner&utm_medium=readme&utm_campaign=github
 如果不了解dagger2，理解起来有些困难。但整体架构思路非常清晰，model层次划分非常细致。
 
-* 日夜切换参考了https://github.com/hefuyicoder/ZhihuDaily项目以及http://www.jianshu.com/p/3b55e84742e5这篇文章。效果非常不错
+* 日夜切换参考了https://github.com/hefuyicoder/ZhihuDaily 项目以及 http://www.jianshu.com/p/3b55e84742e5 这篇文章。效果非常不错
