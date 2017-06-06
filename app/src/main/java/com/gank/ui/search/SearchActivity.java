@@ -106,6 +106,7 @@ public class SearchActivity extends BaseActivity implements  OnSelectListener,Se
             setupEnterAnimation();
             setupExitAnimation();
         } else {
+            SearchActivity.super.initTheme();
             initViews();
             initContent();
         }

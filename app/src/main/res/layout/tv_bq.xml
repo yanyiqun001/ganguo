@@ -2,7 +2,6 @@
 <TextView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/tv_bq"
     android:layout_height="25dp"
     android:layout_width="wrap_content"
     android:background="@drawable/selector_bq"

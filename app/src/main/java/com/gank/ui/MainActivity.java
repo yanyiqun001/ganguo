@@ -30,6 +30,7 @@ import me.majiajie.pagerbottomtabstrip.PageBottomTabLayout;
 import me.majiajie.pagerbottomtabstrip.item.BaseTabItem;
 
 public class MainActivity extends BaseActivity {
+
     @Bind(R.id.toolbar)
     Toolbar toolbar;
     @Bind(R.id.container)

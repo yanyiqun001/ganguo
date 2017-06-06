@@ -9,13 +9,7 @@
     <string name="main2">福利</string>
     <string name="main3">收藏</string>
 
-    <string name="account_balance">Account Balance</string>
-    <string name="balance_currency">$</string>
-    <string name="balance_amount">524.99</string>
 
-
-    <string name="srn_drawer_open">Open</string>
-    <string name="srn_drawer_close">Close</string>
     <string name="translateName">translate_search</string>
     <string name="search">搜索</string>
     <string name="translate_mz">translate_mz</string>

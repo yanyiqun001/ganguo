@@ -7,7 +7,7 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
-        <item name="android:listDivider">@drawable/list_divider</item>
+
 
 
 
@@ -39,6 +39,7 @@
         <item name="colorSwitchThumbNormal">@color/night_background</item>
         <item name="colorControlActivated">@color/black</item>
         <item name="fbcolor">@color/night_background</item>
+        <item name="android:listDivider">@drawable/list_divider_night</item>
     </style>
 
     <style name="DayTheme" parent="AppTheme">
@@ -57,6 +58,7 @@
         <item name="colorSwitchThumbNormal">@color/white</item>
         <item name="colorControlActivated">@color/colorPrimaryDark</item>
         <item name="fbcolor">@color/colorPrimary</item>
+        <item name="android:listDivider">@drawable/list_divider_day</item>
     </style>
     
     

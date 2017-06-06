@@ -18,7 +18,7 @@
                 android:id="@+id/icon_add"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_add_black_24dp"
+                app:srcCompat="@drawable/ic_add_black_24dp"
                 android:layout_centerVertical="true"
                 android:layout_margin="10dp"
                 />
@@ -52,7 +52,7 @@
         android:layout_margin="16sp"
         android:transitionName="@string/translateName"
         app:backgroundTint="?attr/fbcolor"
-        android:src="@drawable/ic_search_white_24dp"
+        app:srcCompat="@drawable/ic_search_white_24dp"
 
         />
 </RelativeLayout>

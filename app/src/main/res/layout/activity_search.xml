@@ -13,9 +13,8 @@
         android:layout_height="30dp"
         android:transitionName="@string/translateName"
         android:layout_gravity="center"
-        android:src="@drawable/ic_search_black_24dp"
+        app:srcCompat="@drawable/ic_search_black_24dp"
         app:backgroundTint="@color/colorPrimary"
-
         />
     <RelativeLayout
         android:id="@+id/mainContainer"
