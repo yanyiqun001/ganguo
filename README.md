@@ -1,14 +1,37 @@
 # ganguo
 # 干果——简洁易用的gank客户端
-**introduce**
+**介绍**
 ---------
-一款基于GankIo开发的客户端。项目采用  MVP+Dagger2+Retrofit + RxJava开发。首页布局样式大致参考掘金客户端。
+一款基于GankIo开发的练手项目。项目采用  MVP+Dagger2+Retrofit + RxJava开发。首页布局样式大致参考掘金客户端。
 
-**Screenshots**
+**应用截图**
 -----------
 ![image](https://github.com/yanyiqun001/ganguo/blob/master/screenshots/Screenshot_20170605-165508_%E7%BC%96%E8%BE%91.png?raw=true)
 ![image](https://github.com/yanyiqun001/ganguo/blob/master/screenshots/Screenshot_20170605-165525_%E7%BC%96%E8%BE%91.png?raw=true)
 ![image](https://github.com/yanyiqun001/ganguo/blob/master/screenshots/Screenshot_20170605-165650_%E7%BC%96%E8%BE%91.png?raw=true)
-![image](https://github.com/yanyiqun001/ganguo/blob/master/screenshots/Screenshot_20170605-165541_%E7%BC%96%E8%BE%91.png?raw=true)
 ![image](https://github.com/yanyiqun001/ganguo/blob/master/screenshots/Screenshot_20170605-165608_%E7%BC%96%E8%BE%91.png?raw=true)
-![image](https://github.com/yanyiqun001/ganguo/blob/master/screenshots/Screenshot_20170605-165818.png?raw=true)
+
+
+**Gif**
+
+![image](https://github.com/yanyiqun001/ganguo/blob/master/screenshots/ezgif.com-resize.gif?raw=true)
+
+**特性**
+-----------
+* 基本遵循MD风格
+* MVP+dagger2架构模式的项目应用
+* retrofit+rxjava配合使用
+* rxbus组件间通讯
+* greendao实现本地收藏功能
+* 日夜模式平滑切换
+* Flexbox流式布局的使用
+* viewpager+fragment栏目动态切换
+* 共享元素和扩散效果
+
+**参考**
+-----------
+* 架构部分参考项目 https://github.com/MindorksOpenSource/android-mvp-architecture 以及文章
+https://juejin.im/entry/58a5992961ff4b006c4455e3?utm_source=gold-miner&utm_medium=readme&utm_campaign=github
+如果不了解dagger2，理解起来有些困难。但整体架构思路非常清晰，model层次划分非常细致。
+
+* 日夜切换参考了https://github.com/hefuyicoder/ZhihuDaily项目以及http://www.jianshu.com/p/3b55e84742e5这篇文章。效果非常不错
