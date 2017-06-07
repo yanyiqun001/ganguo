@@ -24,9 +24,22 @@
 * rxbus组件间通讯
 * greendao实现本地收藏功能
 * 日夜模式平滑切换
-* Flexbox流式布局的使用
+* flexbox流式布局的使用
 * viewpager+fragment栏目动态切换
 * 共享元素和扩散效果
+
+**使用到的开源库**
+-----------
+
+* 网络请求：retrofit2
+* rxjava2
+* 依赖注入：dagger2
+* 数据库：greendao3
+* 图片加载：glide
+* butterknife
+* 上拉加载下拉刷新：TwinklingRefreshLayout https://github.com/lcodecorex/TwinklingRefreshLayout
+* 流式布局：flexbox-layout 
+* 底部导航：PagerBottomTabStrip https://github.com/tyzlmjj/PagerBottomTabStrip
 
 **参考**
 -----------
